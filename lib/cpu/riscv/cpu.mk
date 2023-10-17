@@ -7,8 +7,7 @@ ASFLAGS +=\
 	-march=rv64imafdc -mstrict-align \
 	-mcmodel=medany \
 	-mabi=lp64d \
-	-ffreestanding  \
-	-Wa
+	-ffreestanding
 
 TF_CFLAGS += \
 	$(CPPFLAGS) \
