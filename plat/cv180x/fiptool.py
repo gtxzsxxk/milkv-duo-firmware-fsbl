@@ -9,7 +9,7 @@ import argparse
 from collections import OrderedDict
 import binascii
 from struct import pack, unpack
-import lzma
+# import lzma
 import pprint
 
 
